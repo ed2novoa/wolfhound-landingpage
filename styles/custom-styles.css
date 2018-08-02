@@ -1,0 +1,28 @@
+/* GENERAL */
+
+body {
+  background-color: #002036;
+  padding-top: 66px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.max-container {
+  max-width: 1440px !important;
+}
+
+a.active {
+  text-decoration: underline;
+}
+
+/* HELPERS */
+
+.border-radius-0 {
+  border-radius: 0px !important;
+}
+
+.text-size-15 {
+  font-size: 15.45px !important;
+}
+
+/* NAVBAR STYLES */
