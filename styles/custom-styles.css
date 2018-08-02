@@ -1,4 +1,4 @@
-/* GENERAL */
+/*------------------------------- GENERAL ----------------------------------*/
 
 body {
   background-color: #013e6b;
@@ -23,7 +23,7 @@ a.active {
   text-decoration: underline;
 }
 
-/* HELPERS */
+/*------------------------------- HELPERS ----------------------------------*/
 
 .border-radius-0 {
   border-radius: 0px !important;
@@ -41,7 +41,11 @@ a.active {
   text-decoration: none !important;
 }
 
-/* NAVBAR STYLES */
+.opacity-0 {
+  opacity: 0;
+}
+
+/*------------------------------- NAVBAR STYLES ----------------------------------*/
 
 nav.navbar {
   box-shadow: rgba(0, 0, 0, 0.1) 0px -12px 22px 9px !important;
@@ -65,8 +69,51 @@ nav.navbar {
   }
 }
 
-/* FEATURES SECTION */
+/*------------------------------- FEATURES SECTION ----------------------------------*/
 
 .features-labels {
   font-weight: 300 !important;
+}
+
+/*------------------------------- PLANS SECTION ----------------------------------*/
+
+.card-description {
+  font-size: 1.7rem !important;
+  line-height: 2.1rem;
+  padding-bottom: 3px;
+}
+
+.card-description-li {
+  font-size: 1.55rem !important;
+  line-height: 2rem;
+  padding-bottom: 3px;
+}
+
+.btn-max-width {
+  max-width: 195px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/*------------------------------- CONTACT SECTION ----------------------------------*/
+
+.contact-line {
+  display: inline-block;
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+.contact-line:hover {
+  text-decoration: none;
+  color: #3e3e3e;
+}
+
+#loadingIcon {
+  display: none;
+  float: right;
+  margin-right: 15px;
+  margin-top: 9px;
+}
+
+#resultDiv {
+  width: 80%;
 }
