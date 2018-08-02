@@ -6,6 +6,7 @@ body {
   position: relative;
   display: inline-block;
   width: 100%;
+  color: #4f4f4f;
 }
 .max-container {
   max-width: 1440px !important;
@@ -23,6 +24,14 @@ a.active {
 
 .text-size-15 {
   font-size: 15.45px !important;
+}
+
+.font-weight-semi-bold {
+  font-weight: 500;
+}
+
+.no-hover-underline:hover {
+  text-decoration: none !important;
 }
 
 /* NAVBAR STYLES */
