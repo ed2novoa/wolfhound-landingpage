@@ -1,7 +1,7 @@
 /* GENERAL */
 
 body {
-  background-color: #002036;
+  background-color: #013e6b;
   padding-top: 66px;
   position: relative;
   display: inline-block;
@@ -10,6 +10,9 @@ body {
 }
 .max-container {
   max-width: 1440px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -33px 36px 38px;
 }
 
 a.active {
@@ -35,3 +38,25 @@ a.active {
 }
 
 /* NAVBAR STYLES */
+
+nav.navbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -12px 22px 9px !important;
+}
+
+@media (min-width: 920px) {
+  nav.navbar .nav-link {
+    position: relative;
+    top: 1px;
+  }
+}
+
+@media (max-width: 919px) {
+  nav.navbar .nav-item {
+    border-style: solid;
+    border-color: rgba(2, 69, 129, 0.15);
+    border-width: 1px 0 0 0;
+  }
+  nav.navbar .nav-item:last-of-type {
+    border-width: 1px 0 1px 0;
+  }
+}
