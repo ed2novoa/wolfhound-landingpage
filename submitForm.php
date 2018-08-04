@@ -3,7 +3,7 @@ error_reporting(0);
 $error="";
 $successMessage="";
 if($_POST){
-  $emailTo="enovoa@gpshiring.com";
+  $emailTo="enovoa@gpshiring.com, dlaguna@gpshiring.com";
   $name=$_POST['name'];
   $email=$_POST['email'];
   $phone=$_POST['phone'];
