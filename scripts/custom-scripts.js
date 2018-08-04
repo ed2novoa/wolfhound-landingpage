@@ -27,6 +27,9 @@ $("#contactForm").submit(function(e) {
   }
 });
 function submitForm() {
+  if (!($("#resultDiv").hasClass("opacity-0"))) {
+    $("#resultDiv").addClass("opacity-0")
+  }
   $("#loadingIcon").show();
   $.ajax({
     type: "POST",
@@ -39,7 +42,7 @@ function submitForm() {
         if (e == 1) {
           $("#resultDiv").html('<div class="alert alert-success" role="alert">¡Éxito! Muchas gracias.<br>Nos estaremos comunicando con usted dentro de poco.</div>');
         } else {
-          $("#resultDiv").html('<div class="alert alert-danger" role="alert"><p><strong>Su mensaje no pudo ser enviado.<br>Por favor inténtelo de nuevo.</div>')
+          $("#resultDiv").html('<div class="alert alert-danger" role="alert"><p><strong>Su mensaje no pudo ser enviado.<br>Por favor inténtelo de nuevo o contáctenos a nuestro correo electrónico.</div>')
         }
       }
     },
