@@ -29,7 +29,7 @@
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
-  --breakpoint-md: 920px;
+  --breakpoint-md: 815px;
   --breakpoint-lg: 1080px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -528,7 +528,7 @@ pre code {
   }
 }
 
-@media (min-width:920px) {
+@media (min-width:815px) {
   .container {
     max-width: 720px
   }
@@ -959,7 +959,7 @@ pre code {
   }
 }
 
-@media (min-width:920px) {
+@media (min-width:815px) {
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -3876,7 +3876,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   }
 }
 
-@media (min-width:920px) {
+@media (min-width:1090px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -4244,7 +4244,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-  flex-direction: column
+  flex-direction: column;
+  flex-flow: row wrap
 }
 
 .card-deck .card {
@@ -6030,7 +6031,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 }
 
-@media (min-width:920px) {
+@media (min-width:815px) {
   .d-md-none {
     display: none !important
   }
@@ -6506,7 +6507,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 }
 
-@media (min-width:920px) {
+@media (min-width:815px) {
   .flex-md-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important
@@ -6947,7 +6948,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 }
 
-@media (min-width:920px) {
+@media (min-width:815px) {
   .float-md-left {
     float: left !important
   }
@@ -7571,7 +7572,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 }
 
-@media (min-width:920px) {
+@media (min-width:815px) {
   .m-md-0 {
     margin: 0 !important
   }
@@ -8207,7 +8208,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   }
 }
 
-@media (min-width:920px) {
+@media (min-width:815px) {
   .text-md-left {
     text-align: left !important
   }
